@@ -1,0 +1,184 @@
+
+
+
+
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.dices-computer-player{
+    column-count: 2;
+}
+
+.dices-player{
+    column-count: 2;
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dice{
+    font-size: 64pt;
+}
+
+button{
+    width: 100%;
+    
+}
+
+.higher-button{
+    background-color: lightgreen;
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.lower-button{
+    background-color: red;
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.draw-button{
+    background-color: blue;
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+   
+
+}
+.draw-button:hover{
+    background-color: rgb(48, 90, 230);
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+   cursor: pointer;
+   transform: translateY(-1.5px);
+   transition: 0.3s;
+}
+.lower-button:hover{
+    background-color: rgb(185, 53, 29);
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+   cursor: pointer;
+   transform: translateY(-1.5px);
+   transition: 0.3s;
+}
+.higher-button:hover{
+    background-color: rgb(48, 230, 87);
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+   cursor: pointer;
+   transform: translateY(-1.5px);
+   transition: 0.3s;
+}
+
+.container{
+    border:10px solid brown;
+    background-color:  #2fb553;
+}
+
+.dice-button{
+    background-color: black;
+    color: white;
+    height: 75px;
+    border-radius: 100px;
+}
+.dice-button:hover{
+    background-color: rgb(180, 162, 162);
+    font-weight: bold;
+    height: 75px;
+    border-radius: 100px;
+   cursor: pointer;
+   transform: translateY(-1.5px);
+   transition: 0.3s;
+}
+
+h3{
+    border: 2px solid black;
+    border-radius: 22px;
+}
+
+.uitleg{
+
+
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color:  #2fb553;
+    
+    
+}
+.dices-computer-player{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.dices-player{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.player-credits{
+    font-size: xx-large;
+}
+
+.computer-credits{
+    font-size: xx-large;
+}
+
+.reset{
+    background-color: purple;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+    transform: translateY(-1.5px);
+    transition: 0.3s;
+}
+
+.backBtn{
+    background-color: white;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+    transform: translateY(-1.5px);
+    transition: 0.3s;
+}

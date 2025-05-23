@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --penn-red: rgb(147, 0, 0);
+    --silver: rgb(179, 182, 183);
+    --night: rgb(9, 12, 8);
+    --jet: rgb(46, 47, 47);
+    --emerald: rgb(35, 206, 107);
+    --vivid-sky-blue: rgb(43, 217, 254);
+    --columbia-blue: rgb(191, 209, 229);
+    --heart-red:rgb(255, 7, 7);
+    --wood-brown:rgb(145, 86, 9);
+    --leaf-green:rgb(24, 105, 3);
+}
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+     
+ 
+  
+  body {
+    background-color: var(--jet);
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: var(--silver);
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .box:hover{
+    
+background-color: rgb(180, 162, 162);
+  transition: all;
+  }
+
+  #reset-btn:hover{
+    transition: all;
+    cursor: pointer;
+    transform: translateY(-1.5px);
+    transition: 0.3s;
+  }
+
+  .spelregels{
+    text-align: left;
+    color: aliceblue;
+    border: 2px solid white;
+    width: 19%;
+    border-radius: 18px;
+  }
+
+  #new-btn:hover{
+    transition: all;
+    cursor: pointer;
+    transform: translateY(-1.5px);
+    transition: 0.3s;
+  }
+
+  .return{
+    position: absolute;
+    border-radius: 15px;
+    left: 0;
+    margin: 10px;
+}
+
+.backBtn{
+  background-color: white;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 100px;
+  width: 100px;
+  margin-left: 100px;
+  cursor: pointer;
+  transform: translateY(-1.5px);
+  transition: 0.3s;
+}
